@@ -116,11 +116,6 @@ img {
     padding-bottom: 5px;
 }
 
-@media screen and (max-width: 650px) {
-    body {
-    font-size: .95em;
-    }
-
     h1 {
     font-size: 1.75em;
 }
