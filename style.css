@@ -1,5 +1,6 @@
 body {
 	font: 'Quicksand', 'Raleway', sans-serif;
+    font-size: 1.5vw;
     color: rgba(0,0,0,.5);
     text-align: center;
     letter-spacing: .5em;
@@ -19,7 +20,7 @@ hr {
 }
 
 h1 {
-    font: 600 3.5em 'Macondo', 'Raleway', sans-serif;
+    font: 600 4.5vw 'Macondo', 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -29,7 +30,7 @@ h1 {
 }
 
 h3 {
-	font: 900 1em 'Quicksand', 'Raleway', sans-serif;
+	font: 900 1.75vw 'Quicksand', 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
@@ -94,6 +95,7 @@ h3 {
   border: 0px;
   font-family: 'Quicksand', 'Raleway', sans-serif;
   color: rgba(0,0,0,.5);
+  font-size:  1.5vw;
   font-weight: 700;
   cursor: pointer;
   user-select: none;
@@ -118,10 +120,18 @@ img {
 
 @media screen and (max-width: 650px) {
     body {
-    font-size: 1.25em;
+    font-size: 3.5vw;
     }
 
     h1 {
-    font-size: 1.75em;
+    font-size: 8vw;
 }
+
+    h3 {
+    font-size: 4.5vw;
+}
+
+    #copyButton {
+        font-size: 3.25vw;
+    }
 }
